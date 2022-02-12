@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-styled-components-px2rem-example",
+  "version": "1.0.0",
+  "description": "Example for babel-plugin-styled-components-px2rem",
+  "private": true,
+  "keywords": [
+    "px2rem",
+    "styled-components",
+    "babel"
+  ],
+  "author": "xuyuanxiang <hi@xuyuanxaing.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-styled-components-px2rem": "file:../",
+    "cross-env": "^6.0.3",
+    "jest": "^24.9.0",
+    "postcss": "^7.0.26"
+  },
+  "scripts": {
+    "build": "babel src/index.jsx --out-dir dist/",
+    "test": "cross-env BABEL_ENV=test jest --no-cache"
+  }
+}
