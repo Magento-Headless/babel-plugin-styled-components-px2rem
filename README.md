@@ -1,4 +1,4 @@
-# babel-plugin-styled-components-px2rem
+# pwa-babel-plugin-styled-components-px2rem
 
 [Babel](https://babeljs.io/) plugin for convert `px` to `rem` units of [styled-components](https://www.styled-components.com/)
 

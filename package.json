@@ -1,5 +1,5 @@
 {
-  "name": "headless-babel-plugin-styled-components-px2rem",
+  "name": "pwa-babel-plugin-styled-components-px2rem",
   "version": "1.0.0",
   "description": "Babel plugin for convert px to rem units of styled-components",
   "keywords": [
