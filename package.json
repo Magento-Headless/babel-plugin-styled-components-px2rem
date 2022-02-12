@@ -1,17 +1,12 @@
 {
-  "name": "babel-plugin-styled-components-px2rem",
-  "version": "1.5.5",
+  "name": "headless-babel-plugin-styled-components-px2rem",
+  "version": "1.0.0",
   "description": "Babel plugin for convert px to rem units of styled-components",
   "keywords": [
     "px2rem",
     "styled-components",
     "babel"
   ],
-  "homepage": "https://github.com/SILK-PWA-TEAM/babel-plugin-styled-components-px2rem",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SILK-PWA-TEAM/babel-plugin-styled-components-px2rem.git"
-  },
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,9 +17,7 @@
     "types"
   ],
   "directories": {
-    "lib": "lib",
-    "test": "src/__tests__",
-    "example": "example/src"
+    "example": "example"
   },
   "peerDependencies": {
     "@babel/core": ">= 7.0.0 < 7.8.0 || >= 7.8.3",
@@ -71,5 +64,6 @@
       "tslint -c tslint.json --fix",
       "git add"
     ]
-  }
+  },
+  "author": "caesar"
 }
