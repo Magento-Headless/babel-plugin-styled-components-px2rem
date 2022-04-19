@@ -1,4 +1,4 @@
-# pwa-babel-plugin-styled-components-px2rem
+# babel-plugin-headless-styled-components-px2rem
 
 [Babel](https://babeljs.io/) plugin for convert `px` to `rem` units of [styled-components](https://www.styled-components.com/)
 
@@ -23,7 +23,7 @@
 
 ## Requirement
 
-You need to install the following `peerDependencies` of babel-plugin-styled-components-px2rem into your project at the same time:
+You need to install the following `peerDependencies` of babel-plugin-headless-styled-components-px2rem into your project at the same time:
 
 ```json
 {
@@ -48,7 +48,7 @@ The use of React and styled-components [test cases](example/src/__tests__/index.
 module.exports = {
   plugins: [
     [
-      'styled-components-px2rem',
+      'headless-styled-components-px2rem',
       { rootValue: 100, unitPrecision: 5, minPixelValue: 0, multiplier: 1, transformRuntime: false },
     ],
   ],
@@ -61,7 +61,7 @@ or `.babelrc`:
 {
   "plugins": [
     [
-      "styled-components-px2rem",
+      "headless-styled-components-px2rem",
       { "rootValue": 100, "unitPrecision": 5, "minPixelValue": 0, "multiplier": 1, "transformRuntime": false }
     ]
   ]
